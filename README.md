@@ -1,51 +1,26 @@
-# Welcome to your Expo app 👋
+# Habit Tracker App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern habit tracking application built with React Native and Expo, featuring a unique "Neko" (catgirl) reward system to make habit tracking more engaging and fun.
 
-## Get started
+## 📱 Features
 
-1. Install dependencies
+- **Habit Tracking**: Track your daily habits and routines
+- **Neko Rewards**: Earn catgirl images as rewards for completing habits
+- **Interactive UI**: Modern, responsive interface with dark mode support
+- **Catgirl Gallery**: Browse featured, hot, and collection categories
+- **Artist Attribution**: View and access original sources and artist profiles
 
-   ```bash
-   npm install
-   ```
+## 🚀 Getting Started
 
-2. Start the app
+### Prerequisites
 
-   ```bash
-   npx expo start
-   ```
+- Node.js (v14 or newer)
+- npm or yarn
+- Expo CLI
 
-In the output, you'll find options to open the app in a
+### Installation
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+1. Clone the repository:
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# Habit-Tracker-FE
+git clone https://github.com/yourusername/Habit-Tracker-FE.git
+cd Habit-Tracker-FE
