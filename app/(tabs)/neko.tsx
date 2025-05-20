@@ -117,7 +117,7 @@ export default function Neko() {
   }, []);
 
   return (
-    <SafeAreaView style={tw`flex-1 py-5`}>
+    <SafeAreaView style={tw`flex-1 mt-5 py-5`}>
     <ScrollView 
       style={tw`flex-1`}
       contentContainerStyle={tw`p-4`}
