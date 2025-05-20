@@ -3,7 +3,7 @@ import { ThemedView } from '@/components/ThemedView';
 import { Ionicons } from '@expo/vector-icons';
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-import { ActivityIndicator, Dimensions, Image, Linking, Modal, RefreshControl, ScrollView, Text, TouchableOpacity, View } from 'react-native';
+import { ActivityIndicator, Dimensions, Image, Linking, Modal, RefreshControl, SafeAreaView, ScrollView, Text, TouchableOpacity, View } from 'react-native';
 import tw from 'twrnc';
 
 interface CatgirlResponse {
@@ -117,6 +117,7 @@ export default function Neko() {
   }, []);
 
   return (
+    <SafeAreaView style={tw`flex-1 py-5`}>
     <ScrollView 
       style={tw`flex-1`}
       contentContainerStyle={tw`p-4`}
@@ -130,7 +131,7 @@ export default function Neko() {
       }
     >
       {/* Featured Catgirl */}
-      <ThemedView style={tw`mb-6`}>
+      <ThemedView style={tw`mb-6 bg-black`}>
         <View style={tw`flex-row justify-between items-center mb-4`}>
           <ThemedText type="title">Featured Catgirl</ThemedText>
           <TouchableOpacity 
@@ -446,5 +447,6 @@ export default function Neko() {
         </Modal>
       )}
     </ScrollView>
+    </SafeAreaView>
   );
 }
